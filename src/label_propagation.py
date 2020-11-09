@@ -1,5 +1,6 @@
 """Running label propagation."""
-
+import sys
+sys.path.append('../')
 from model import LabelPropagator
 from param_parser import parameter_parser
 from print_and_read import graph_reader, argument_printer
